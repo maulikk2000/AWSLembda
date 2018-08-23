@@ -16,6 +16,7 @@ namespace LambdaShoppingListWebApi
     /// </summary>
     public class LambdaEntryPoint : Amazon.Lambda.AspNetCoreServer.APIGatewayProxyFunction
     {
+        //this entry point is used when our project inside AWS 
         /// <summary>
         /// The builder has configuration, logging and Amazon API Gateway already configured. The startup class
         /// needs to be configured in this method using the UseStartup<>() method.
